@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/profile.css">
+</head>
+<body>
+
+    <section class="header">
+        <div class="nav-container">
+          <div class="logo-nav">
+            <a href="home.html"><h1 class="logo">Render<span class="orange-span">Ready</span></h1></a>
+          </div>
+
+          <div class="slogan">
+            <h1>Your One-Stop 3D Model Shop</h1>
+        </div>
+
+        <div class="register-menu">
+            <a href="register.html">Register</a>
+            <ul>
+              <li>
+                <a href="#">Menu <i class="fas fa-caret-down"></i>
+                <div class="dropdown-menu">
+                  <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="cartpage.html">Cart Page</a></li>
+                    <li><a href="aboutUs.html">About Us</a></li>
+                    <li><a href="register.html">Profile</a></li>
+                  </ul>
+                </div> 
+              </a>
+              </li>
+            </ul>
+        </div>
+        
+        </div>
+      </section>
+      <h1>A</h1>
+
+      <section class="profile-inside">
+        <div class="pfp-big">
+          <div class="pfp-layer"></div>
+          <img id="profile-image" src="assets/pfp_default.png" alt="">
+          <input type="file" id="image-upload" accept="image/*">
+          <button id="change-image-button">Change Image</button>
+        </div>
+        
+        <div class="profile-section">
+          <div class="profile-information">
+            <h2>My account</h2>
+            <p class="caps-user">USER INFORMATION :</p>
+
+            <div class="user-info-row">
+              <div class="user-info-column">
+                <div class="user-information">
+                  <h2 class="label">Username</h2>
+                  <p class="data-input">J0hnson</p>
+                </div>
+    
+                <div class="user-information">
+                  <h2 class="label">Email</h2>
+                  <p class="data-input">jonny@gmail.com</p>
+                </div>
+    
+                <div class="user-information">
+                  <h2 class="label">Password</h2>
+                  <p class="data-input">*********</p>
+                </div>
+              </div>
+             
+              <div class="user-info-column">
+                <div class="user-information">
+                  <h2 class="label">Date of Birth</h2>
+                  <p class="data-input">15/06/2000</p>
+                </div>
+
+                <div class="user-information">
+                  <h2 class="label">Gender</h2>
+                  <p class="data-input">Male</p>
+                </div>
+
+                <div class="user-information">
+                  <h2 class="label">Balance</h2>
+                  <p class="data-input">Rp. 150,000,000</p>
+                </div>
+                
+              </div>
+            </div>
+
+          </div>
+          
+        </div>
+      </section>
+<script src="/javascripts/profile.js"></script>
+</body>
+</html>
