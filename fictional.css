@@ -1,0 +1,253 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: poppins-bold,Arial,sans-serif;
+}
+
+.header {
+    width: 100%;
+}
+
+
+.nav-container .logo-nav {
+    display: flex;
+}
+
+.nav-container .logo-nav a{
+    text-decoration: none;
+}
+
+.nav-container .logo-nav h1 {
+    margin-right: 5px;
+}
+
+.register-menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.register-menu a{
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.nav-container {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white; 
+    border-bottom: 1px solid rgb(216, 196, 196);
+    z-index: 1000; 
+}
+
+.nav-container ul {
+    list-style: none;
+    display: flex;
+    margin-right: 50px;
+}
+
+.nav-container ul li {
+    padding: 10px 30px;
+    position: relative;
+}
+
+.nav-container ul li a {
+    font-size: 18px;
+    font-weight: 100;
+    color: black; 
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.logo {
+    color: black;
+    font-weight: 600;
+    font-size: 32px;
+    margin-left: 50px;
+}
+
+.orange-span{
+    color: orange;
+}
+
+.nav-container ul li a:hover {
+    color: orange;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white; 
+}
+
+.nav-container ul li:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+
+.dropdown-menu ul li a {
+    color: rgb(84, 75, 75); 
+    text-decoration: none;
+    display: block;
+    transition: all 0.2s;
+}
+.nav-container ul li:hover .dropdown-menu ul{
+    margin: 10px;
+}
+
+.dropdown-menu ul li a:hover {
+    color: orange;
+}
+
+.slogan h1{
+    font-weight: 400;
+    color: orange;
+}
+
+.dropdown-menu-2 {
+    display: none;
+    position: absolute;
+    top: 21%;
+    left: 700px;
+    background-color: white;
+    border: 1px solid orange;
+    padding: 5px;
+    z-index: 1001;
+    list-style: none;
+}
+
+.dropdown-menu-2 ul{
+    list-style: none;
+}
+
+.product-container h1:hover + .dropdown-menu-2 {
+    display: block;
+}
+
+.dropdown-menu-2 ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-menu-2 ul li{
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.dropdown-menu-2 ul li a:hover {
+    color: orange;
+}
+
+.dropdown-menu-2 ul li a{
+    color: rgb(84, 75, 75);
+    text-decoration: none;
+    display: block;
+    transition: all 0.2s;
+}
+
+.product-container h1:hover  .dropdown-menu-2 ul{
+    margin: 10px;
+}
+
+.dropdown-menu-2 ul li a{
+    color: rgb(84, 75, 75);
+}
+
+
+.product-container h1:hover + .dropdown-menu-2,
+.dropdown-menu-2:hover {
+    display: block;
+}
+
+.products {
+    margin-top: 60px;
+}
+
+.product-container {
+    border-radius: 0 0 8px 8px;
+    transition: all 0.2s;
+    margin-bottom: 30px;
+}
+
+.purchase-btn {
+    font-size: 14px;
+    padding: 4px;
+    position: absolute;
+    margin-left: 350px;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 4px;
+    opacity: 0;
+    transition: all 0.2s;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.product-container h1 {
+    margin-left: 35px;
+    font-size: 50px;
+    color: orange;
+}
+
+.product-card-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 30px;
+}
+
+.product-card-container img {
+    width: 450px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+.product-card-container:hover {
+    box-shadow: 2px 2px 5px rgba(244, 116, 5, 0.2);
+}
+
+.product-description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 440px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 0 0 8px 8px;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(84, 75, 75);
+    border: 1px solid rgb(216, 196, 196);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.price {
+    transition: opacity 0.2s;
+}
+
+.product-card-container:hover .price {
+    opacity: 0;
+    display: none;
+}
+
+.product-card-container:hover .purchase-btn {
+    opacity: 1;
+}

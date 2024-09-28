@@ -1,0 +1,208 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: poppins-bold,Arial,sans-serif;
+}
+
+.header {
+    width: 100%;
+}
+
+
+.nav-container .logo-nav {
+    display: flex;
+}
+
+.nav-container .logo-nav a{
+    text-decoration: none;
+}
+
+.nav-container .logo-nav h1 {
+    margin-right: 5px;
+}
+
+.register-menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.register-menu a{
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.nav-container {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white; 
+    border-bottom: 1px solid rgb(216, 196, 196);
+    z-index: 1000; 
+}
+
+.nav-container ul {
+    list-style: none;
+    display: flex;
+    margin-right: 50px;
+}
+
+.nav-container ul li {
+    padding: 10px 30px;
+    position: relative;
+}
+
+.nav-container ul li a {
+    font-size: 18px;
+    font-weight: 100;
+    color: black; 
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.logo {
+    color: black;
+    font-weight: 600;
+    font-size: 32px;
+    margin-left: 50px;
+}
+
+.orange-span{
+    color: orange;
+}
+
+.nav-container ul li a:hover {
+    color: orange;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white; 
+}
+
+.nav-container ul li:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+
+.dropdown-menu ul li a {
+    color: rgb(84, 75, 75); 
+    text-decoration: none;
+    display: block;
+    transition: all 0.2s;
+}
+.nav-container ul li:hover .dropdown-menu ul{
+    margin: 10px;
+}
+
+.dropdown-menu ul li a:hover {
+    color: orange;
+}
+
+.slogan h1{
+    font-weight: 400;
+    color: orange;
+}
+
+.form{
+    margin-top: 60px;
+}
+
+.form img{
+    width: 600px;
+}
+
+.form-container{
+    display: flex;
+    width: 70%;
+    margin-left: 20%;
+    border-radius: 12px;
+    background: linear-gradient(to right, orange 50%, white 50%);
+    box-shadow: 7px 6px 9px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.form-inside{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.form-inside h1{
+    margin-bottom: 25px;
+}
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field input{
+    width: 350px;
+    height: 25px;
+    border-radius: 6px;
+}
+
+.input-field label{
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.gender-input-field{
+    margin-top: 12px;
+}
+
+.option{
+    margin-top: 5px;
+}
+
+.input-field-tnc{
+    margin-top: 12px;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"], 
+input[type="number"],
+input[type="date"]
+textarea { 
+  padding: 5px; 
+}
+
+.submit-btn {
+    margin-top: 12px;
+    height: 36px;
+    font-size: 18px;
+    width: 360px;
+    background-color: #FFA500; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.submit-btn:hover {
+    background-color: #FF8C00; 
+}
+
+.sign-in-btn{
+    display: flex;
+    text-decoration: none;
+    margin-top: 20px;
+    color: black;
+}

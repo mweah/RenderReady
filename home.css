@@ -1,0 +1,368 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: poppins-bold,Arial,sans-serif;
+}
+
+.header {
+    width: 100%;
+}
+
+
+.nav-container .logo-nav {
+    display: flex;
+}
+
+.nav-container .logo-nav a{
+    text-decoration: none;
+}
+
+.nav-container .logo-nav h1 {
+    margin-right: 5px;
+}
+
+.register-menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.register-menu a{
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.nav-container {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white; 
+    border-bottom: 1px solid rgb(216, 196, 196);
+    z-index: 1000;
+
+}
+
+.nav-container ul {
+    list-style: none;
+    display: flex;
+    margin-right: 50px;
+}
+
+.nav-container ul li {
+    padding: 10px 30px;
+    position: relative;
+}
+
+.nav-container ul li a {
+    font-size: 18px;
+    font-weight: 100;
+    color: black; 
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.logo {
+    color: black;
+    font-weight: 600;
+    font-size: 32px;
+    margin-left: 50px;
+}
+
+.orange-span{
+    color: orange;
+}
+
+.nav-container ul li a:hover {
+    color: orange;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white; 
+}
+
+.nav-container ul li:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+
+.dropdown-menu ul li a {
+    color: rgb(84, 75, 75); 
+    text-decoration: none;
+    display: block;
+    transition: all 0.2s;
+}
+.nav-container ul li:hover .dropdown-menu ul{
+    margin: 10px;
+}
+
+.dropdown-menu ul li a:hover {
+    color: orange;
+}
+
+.slogan h1{
+    font-weight: 400;
+    color: orange;
+}
+
+.home-container{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+}
+.banner{
+    background: linear-gradient(to right, rgb(251, 26, 22), rgb(255, 255, 255));
+    width: 80%;
+    display: flex;
+    margin-left: 320px;
+    height: 500px;
+    justify-content: space-between;
+    position: absolute;
+}
+
+.banner-container{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.banner .title-banner{
+    position: relative;
+    display: flex;
+    color: white;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 52px;
+    font-weight: 100;
+}
+
+.banner .title-banner h1{
+    font-weight: 100;
+}
+
+.banner .title-banner p{
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.banner .img-banner img{
+    transform: scaleX(-1);
+    margin-left: 0px;
+}
+
+.line-test{
+    position: absolute;
+    border-left: 1px solid rgb(216, 196, 196);
+    height: 548px;
+    margin-left: 300px;
+    margin-top: -30px;
+}
+
+.home-container .categories{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.home-container .categories h2{
+    font-weight: 100;
+    margin-bottom: 10px;
+    margin-left: -20px;
+}
+
+.home-container .categories a{
+    margin-top: 15px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+
+}
+
+.horizontal-line{
+    position: absolute;
+    border-bottom: 1px solid rgb(216, 196, 196);
+    margin-top: 280px;
+    width: 100%;
+}
+
+.this-month{
+    margin-top: 380px;
+}
+
+.this-month .this-month-title{
+    margin-left: 35px;
+    display: flex;
+    flex-direction: row;
+}
+
+.this-month .this-month-title .orange-block{
+    background-color: orange;
+    color: orange;
+    width: 25px;
+    height: 50px;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+
+.this-month .this-month-title h1{
+    margin-left: 10px;
+    margin-top: 10px;
+    color: orange;
+}
+
+.toys-categories{
+    margin-left: 35px;
+}
+
+.toys-categories h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.gameassets-categories{
+    margin-left: 35px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.gameassets-categories h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.fictionalcharacters-categories{
+    margin-left: 35px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.fictionalcharacters-categories h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.vehicles-categories{
+    margin-left: 35px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.vehicles-categories h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.robots-categories{
+    margin-left: 35px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.robots-categories h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.medievalfantasy-categories{
+    margin-left: 35px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.medievalfantasy-categories h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.categories-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.categories-row::-webkit-scrollbar {
+    width: 0;
+}
+.model-assets {
+    display: inline-block;
+    flex-direction: column;
+    width: 400px;
+    margin-right: 20px;
+}
+
+.model-assets img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+.description-asset{
+    border-radius: 0 0 8px 8px;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(84, 75, 75);
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    border: 1px solid rgb(216, 196, 196);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: -100px;
+    justify-content: space-between;
+}
+
+.layer{
+    height: 100px;
+    width: 200px;
+    transform: translateY(-190px);
+    margin-left: 100px;
+    border-radius: 10px;
+    /* position: absolute; */
+    align-items: center;
+    transition: 0.5s;
+    text-align: center;
+    z-index: 1000;
+    cursor: pointer;
+}
+.layer:hover{
+    background-color: rgba(255, 166, 0, 0.796);
+}
+
+.layer p{
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 1s;
+}
+
+.layer:hover p{
+    bottom: 45%;
+    opacity: 1;
+}
+
+a{
+    text-decoration: none;
+    color: orange;
+}

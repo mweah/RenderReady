@@ -1,0 +1,232 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: poppins-bold,Arial,sans-serif;
+}
+
+.header {
+    width: 100%;
+}
+
+
+.nav-container .logo-nav {
+    display: flex;
+}
+
+.nav-container .logo-nav a{
+    text-decoration: none;
+}
+
+.nav-container .logo-nav h1 {
+    margin-right: 5px;
+}
+
+.register-menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.register-menu a{
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.nav-container {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white; 
+    border-bottom: 1px solid rgb(216, 196, 196);
+    z-index: 1000; 
+}
+
+.nav-container ul {
+    list-style: none;
+    display: flex;
+    margin-right: 50px;
+}
+
+.nav-container ul li {
+    padding: 10px 30px;
+    position: relative;
+}
+
+.nav-container ul li a {
+    font-size: 18px;
+    font-weight: 100;
+    color: black; 
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.logo {
+    color: black;
+    font-weight: 600;
+    font-size: 32px;
+    margin-left: 50px;
+}
+
+.orange-span{
+    color: orange;
+}
+
+.nav-container ul li a:hover {
+    color: orange;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white; 
+}
+
+.nav-container ul li:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+
+.dropdown-menu ul li a {
+    color: rgb(84, 75, 75); 
+    text-decoration: none;
+    display: block;
+    transition: all 0.2s;
+}
+.nav-container ul li:hover .dropdown-menu ul{
+    margin: 10px;
+}
+
+.dropdown-menu ul li a:hover {
+    color: orange;
+}
+
+.slogan h1{
+    font-weight: 400;
+    color: orange;
+}
+
+.about-us{
+    margin-top: 100px;
+    margin-left: 35px;
+}
+
+.title-container{
+    width: 80%;
+    display: flex;
+    margin-left: 120px;
+    background: linear-gradient(to right, rgb(251, 26, 22), rgb(255, 255, 255));
+    padding: 45px;
+    border-radius: 12px;
+}
+
+.title-container img{
+    width: 600px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+.title-text-container{
+    align-content: center;
+}
+
+.orange{
+    color: orange;
+}
+
+.title-text-container h1{
+    font-size: 57px;
+    width: 90%;
+}
+
+.title-text-container p{
+    font-size: 18px;
+    text-align: justify;
+    color: black;
+}
+
+.separator{
+    width: 1200px;
+    height: 1px;
+    margin: 75px auto 75px auto;
+    background-color: rgba(231, 74, 22, 0.6);
+}
+
+.our-mission{
+    width: 80%;
+    margin-left: 120px;
+    margin-top: 50px;
+
+
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+}
+
+.our-mission h1{
+    font-size: 52px;
+    text-align: center;
+    color: white;
+}
+
+.mission-container{
+    background-color: orange;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.our-mission .mission-description p{
+    color: white;
+    text-align: center;
+}
+
+.vision-container{
+    margin-left: 50px;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.vision-description p{
+    color: white;
+    text-align: center;
+}
+
+.what-we-offer{
+    align-content: center;
+}
+
+.what-we-offer {
+    width: 80%;
+    margin-left: 120px;
+    margin-top: 50px;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    background-color: orange; 
+    padding: 10px; 
+    border-radius: 12px; 
+}
+
+.what-we-offer h1 {
+    font-size: 52px;
+    text-align: center;
+    color: white;
+}
+
+.what-we-offer .offers p {
+    color: white;
+    text-align: center;
+}

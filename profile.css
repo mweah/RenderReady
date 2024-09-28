@@ -1,0 +1,207 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: poppins-bold,Arial,sans-serif;
+}
+
+.header {
+    width: 100%;
+}
+
+
+.nav-container .logo-nav {
+    display: flex;
+}
+
+.nav-container .logo-nav a{
+    text-decoration: none;
+}
+
+.nav-container .logo-nav h1 {
+    margin-right: 5px;
+}
+
+.register-menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.register-menu a{
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.nav-container {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white; 
+    border-bottom: 1px solid rgb(216, 196, 196);
+    z-index: 1000; 
+}
+
+.nav-container ul {
+    list-style: none;
+    display: flex;
+    margin-right: 50px;
+}
+
+.nav-container ul li {
+    padding: 10px 30px;
+    position: relative;
+}
+
+.nav-container ul li a {
+    font-size: 18px;
+    font-weight: 100;
+    color: black; 
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.logo {
+    color: black;
+    font-weight: 600;
+    font-size: 32px;
+    margin-left: 50px;
+}
+
+.orange-span{
+    color: orange;
+}
+
+.nav-container ul li a:hover {
+    color: orange;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white; 
+}
+
+.nav-container ul li:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+
+.dropdown-menu ul li a {
+    color: rgb(84, 75, 75); 
+    text-decoration: none;
+    display: block;
+    transition: all 0.2s;
+}
+.nav-container ul li:hover .dropdown-menu ul{
+    margin: 10px;
+}
+
+.dropdown-menu ul li a:hover {
+    color: orange;
+}
+
+.slogan h1{
+    font-weight: 400;
+    color: orange;
+}
+
+.profile-inside{
+    margin-top: 60px;
+
+}
+
+.pfp-big{
+    margin-left: 640px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+.pfp-big #change-image-button{
+    width: 150px;
+    margin-left: 75px;
+    margin-top: 20px;
+    font-size: 16px;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    height: 50px;
+}
+#image-upload{
+    display: none;
+}
+
+
+.profile-inside img{
+    width: 300px;
+}
+
+.profile-section{
+    position: absolute;
+    width: 70%;
+    display: flex;
+    background-color: #F5F5F5;
+    margin-left: 250px;
+    margin-top: 25px;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+.profile-information{
+   margin-left: 30px;
+   padding-top: 25px;
+   color: rgb(84, 75, 75);
+}
+.profile-information h2{
+    font-weight: 600;
+    font-size: 56px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.profile-information .caps-user{
+    margin-top: 50px;
+    font-weight: 100;
+}
+
+.user-information{
+    margin-top: 15px;
+    padding: 20px;
+}
+
+.user-information .label{
+    font-size: 24px;
+}
+
+.user-information .data-input{
+    margin-top: 10px;
+    padding: 5px;
+    width: 400px;
+    height: 40px;
+    border-bottom: 1px solid black;
+    align-content: center;
+
+}
+
+.user-info-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.user-info-column{
+    display: flex;
+    flex-direction: column;
+}

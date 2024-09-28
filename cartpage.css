@@ -1,0 +1,219 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: poppins-bold,Arial,sans-serif;
+}
+
+.header {
+    width: 100%;
+}
+
+
+.nav-container .logo-nav {
+    display: flex;
+}
+
+.nav-container .logo-nav a{
+    text-decoration: none;
+}
+
+.nav-container .logo-nav h1 {
+    margin-right: 5px;
+}
+
+.register-menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.register-menu a{
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.nav-container {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white; 
+    border-bottom: 1px solid rgb(216, 196, 196);
+    z-index: 1000; 
+}
+
+.nav-container ul {
+    list-style: none;
+    display: flex;
+    margin-right: 50px;
+}
+
+.nav-container ul li {
+    padding: 10px 30px;
+    position: relative;
+}
+
+.nav-container ul li a {
+    font-size: 18px;
+    font-weight: 100;
+    color: black; 
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.logo {
+    color: black;
+    font-weight: 600;
+    font-size: 32px;
+    margin-left: 50px;
+}
+
+.orange-span{
+    color: orange;
+}
+
+.nav-container ul li a:hover {
+    color: orange;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white; 
+}
+
+.nav-container ul li:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+
+.dropdown-menu ul li a {
+    color: rgb(84, 75, 75); 
+    text-decoration: none;
+    display: block;
+    transition: all 0.2s;
+}
+.nav-container ul li:hover .dropdown-menu ul{
+    margin: 10px;
+}
+
+.dropdown-menu ul li a:hover {
+    color: orange;
+}
+
+.slogan h1{
+    font-weight: 400;
+    color: orange;
+}
+
+.cart-content{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.cart-content h1{
+    margin-left: 160px;
+    font-size: 48px;
+    color: orange;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Helvetica, sans-serif;
+}
+.cart-page-container{
+    margin-left: 160px;
+    display: flex;
+    flex-direction: row;
+}
+
+.model-container{
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+    margin-top: 25px;
+    background-color: rgb(255, 246, 246);
+    width: 800px;
+    border-radius: 12px;
+}
+
+
+.model-container img{
+    width: 150px;
+    border-radius: 6px;
+}
+
+.desc-n-button{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.desc-n-button p{
+    margin-top: 20px;
+
+}
+
+.desc-n-button button{
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 12px;
+    width: 100px;
+    height: 26px;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-left: 500px;
+    cursor: pointer;
+}
+
+.desc{
+    display: flex;
+    flex-direction: row;
+}
+
+.desc .price{
+    margin-left: 280px;
+    font-weight: 100;
+}
+
+.desc-2{
+    display: flex;
+    flex-direction: row;
+}
+
+.desc-2 .price-2{
+    margin-left: 350px;
+    font-weight: 100;
+}
+
+.summary{
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.summary-inside{
+    display: flex;
+    margin-top: 20px;
+    gap: 100px;
+}
+
+.summary button{
+    width: 240px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: rgb(245, 195, 102);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+}
+
